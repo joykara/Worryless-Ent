@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  background: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1{
+  font-size: clamp(2.5rem, 3vw, 4rem);
+  font-weight: 700;
+  font-family: var(--font-family);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h2{
+  font-size: clamp(1.8rem, 2vw, 2.5rem);
+  font-weight: 700;
+  font-family: var(--font-family);
 }
-
-.App-link {
-  color: #61dafb;
+h3{
+  font-size: clamp(1.5rem, 2vw, 2rem);
+  font-weight: 600;
+  font-family: var(--font-family);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h4{
+  font-size: 20px;
+  font-weight: 700;
+  font-family: var(--font-family);
+}
+a{
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
+  font-family: var(--links-font-family);
+}
+a:hover {
+  color: var(--color-secondary);
+}
+p{
+  font-family: var(--font-family);
+  line-height: 32px;
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
+  font-weight: 400;
+}
+span{
+  color: var(--color-secondary)
 }
