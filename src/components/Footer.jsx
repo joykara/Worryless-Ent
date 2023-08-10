@@ -1,14 +1,17 @@
 import React from 'react';
-import { RiFacebookCircleFill, RiTwitterFill, RiYoutubeFill, RiLinkedinFill, RiInstagramFill } from 'react-icons/ri';
+import { RiFacebookCircleFill, RiYoutubeFill, RiInstagramFill } from 'react-icons/ri';
 import './main.css';
 import { Link } from 'react-router-dom';
+import logo2 from '../logo2.png';
 
 const Footer = () => {
     return (
         <>
             <section className="wl-footer-container">
                 <div className="wl-footer">
-                    <div className="wl-logo">Logo</div>
+                    <div className="wl-logo">
+                        <img src={logo2} alt="WorryLess Logo" />
+                    </div>
                     <div className="wl-footer-content">
                         <div className="wl-intro">
                             <h3><span>CONTACT US</span></h3>
@@ -22,11 +25,9 @@ const Footer = () => {
                             <div className='wl-footer-cta'>
                                 <p>Follow us on social media:</p>
                                 <ul className='wl-footer-cta-links'>
-                                <li><Link to="https://www.linkedin.com/company/hemllin/?viewAsMember=true"><RiLinkedinFill size={25}/></Link></li>
-                                <li><Link to="https://twitter.com/hemllin"><RiTwitterFill size={25}/></Link></li>
-                                <li><Link to="https://www.instagram.com/hemllin/"><RiInstagramFill size={25}/></Link></li>
-                                <li><Link to="http://facebook.com/hemllin/"><RiFacebookCircleFill size={25}/></Link></li>
-                                <li><Link to="https://www.youtube.com/@hemllin/featured"><RiYoutubeFill size={25}/></Link></li>
+                                <li><Link to="https://instagram.com/worrylessentke?igshid=ZDc4ODBmNjlmNQ=="><RiInstagramFill size={25}/></Link></li>
+                                <li><Link to="https://www.facebook.com/profile.php?id=100095091060793&mibextid=ZbWKwL"><RiFacebookCircleFill size={25}/></Link></li>
+                                <li><Link to="https://youtube.com/@WorrylessEntertainment"><RiYoutubeFill size={25}/></Link></li>
                                 </ul>
                             </div>
                         </div>

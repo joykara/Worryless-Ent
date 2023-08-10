@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './main.css';
 import { RiMenuLine, RiCloseLine } from 'react-icons/ri';
+import logo from '../logo.png';
 
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
@@ -13,7 +14,7 @@ const Navbar = () => {
         <div className="wl-navbar-container">
             <div className="wl-navbar">
                 <div className="wl-navbar-logo">
-                      <img src="https://www.wolox.com.ar/assets/logo.svg" alt="WorryLess Logo" />
+                      <img src={logo} alt="WorryLess Logo" />
                       <p>Worryless Ent.</p>
                 </div>
                 <nav className="wl-navbar-menu">
@@ -21,7 +22,7 @@ const Navbar = () => {
                         <li><a href="/">Home</a></li>
                         <li><a href="/">About</a></li>
                         <li><a href="/">Gallery</a></li>
-                        <li><a href="/">Contact</a></li>
+                        <li><a href="/contact-us">Contact</a></li>
                     </ul>
                 </nav>
                 <div className={`wl-navbar-toggle ${toggleMenu ? 'active' : ''}`} onClick={handleToggle}>
@@ -32,7 +33,7 @@ const Navbar = () => {
                             <li><a href="/">Home</a></li>
                             <li><a href="/">About</a></li>
                             <li><a href="/">Gallery</a></li>
-                            <li><a href="/">Contact</a></li>
+                            <li><a href="/contact-us">Contact</a></li>
                         </ul>
                     </nav>
                     )}
