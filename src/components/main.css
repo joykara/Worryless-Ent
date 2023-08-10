@@ -40,6 +40,10 @@
   color: #ffffff;
 }
 
+.wl-navbar-menu ul li a:hover{
+  color: var(--color-secondary);
+}
+
 .wl-navbar-menu ul li:last-child {
   margin-right: 0;
 }
@@ -100,7 +104,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: clamp(300px, 800px, 100vh);
+  height: clamp(300px, 750px, 100vh);
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -129,11 +133,12 @@
 .wl-about {
   flex: 1;
   padding-left: 3rem;
+  margin: 2rem 0;
 }
 .wl-about h1 {
   font-size: 24px;
   font-weight: bold;
-  padding-top: 1rem;
+  padding-top: 4rem;
   margin-bottom: 2rem;
   color: #000000;
 }
@@ -154,8 +159,8 @@
 
 /* Services Container */
 .wl-services-container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
   background-color: #f5f5f5;
   padding: 20px;
 }
@@ -187,28 +192,34 @@
 
 /* Services Images */
 .wl-services-images {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 2rem 4rem;
+  width: 90%;
+  margin: auto;
   margin-top: 20px;
 }
 
 /* Services Image */
 .wl-services-image {
   margin: 0 10px;
+  height: 500px;
   text-align: center;
 }
 
 .wl-services-image img {
   width: 100%;
-  max-width: 200px;
-  height: auto;
-  border-radius: 50%;
+  height: 100%;
   margin-bottom: 10px;
+  object-fit: cover;
+  border-radius:.375rem!important;
 }
 
 .wl-services-image p {
-  font-size: 16px;
+  font-size: 2rem;
+  color: #ffffff;
   font-weight: bold;
+  margin-top: -5rem;
 }
 
 
@@ -229,6 +240,11 @@
 .wl-logo {
     color: #ffffff;
     margin-bottom: 1rem;
+    margin-left: 3rem;
+}
+.wl-logo img {
+  height: 80px;
+  width: auto;
 }
 
 /* Footer Content */
@@ -329,11 +345,67 @@
   }
 
   /* About Container */
-    .wl-about-container {
-        flex-direction: column;
-    }
-    .wl-about,
-    .wl-about-image{
-        padding-left: 0;
-    }
+  .wl-about-container {
+      flex-direction: column;
+  }
+  .wl-about,
+  .wl-about-image{
+      padding-left: 0;
+  }
+
+  /* Services Container */
+  .wl-services-container {
+      padding: 1rem;
+  }
+
+  /* Footer Container */
+  .wl-footer-container {
+    padding: 2rem 2rem 0 2rem;
+  }
+
+  /* Footer Logo */
+  .wl-logo {
+      margin-left: 0;
+  }
+
+  /* Footer Content */
+  .wl-footer-content {
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      margin-top: 1rem;
+      padding: 0;
+      width: 100%;
+  }
+
+  /* Footer Email Section */
+  .wl-intro {
+    width: 100%;
+  }
+
+  /* Footer Contact Details */
+  .wl-footer-links{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex;
+      align-items: start;
+      margin-top: auto;
+      width: 100%;
+  }
+  .wl-footer-links{
+      width: 100%;
+      margin-top: 1rem;
+  }
+  .wl-footer-contact-dets p{
+      margin-bottom: 0;
+  }
+  .wl-footer-cta-links{
+      margin-top: 1rem;
+  }
+  .wl-footer-cta-links li a{
+      margin: 0 10px;
+  }
+  .wl-footer-cta-links li:last-child a{
+      margin-right: 0;
+  }
 }
