@@ -6,7 +6,7 @@
     background-color: var(--color-primary);
 }
 .contact-container .wl-navbar .wl-navbar-logo p,
-.wl-navbar .wl-navbar-menu ul li a {
+.contact-container .wl-navbar .wl-navbar-menu ul li a {
     color: #000000;
 }
 .contact-container .wl-navbar-toggle svg{
