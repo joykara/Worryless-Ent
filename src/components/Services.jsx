@@ -9,6 +9,7 @@ const Services = () => {
           <section className="wl-services-container">
               <div className="wl-services">
                   <h1>OUR SERVICES</h1>
+                    <hr />
                   <p>Invite us to your live event and see the difference</p>
                   <p>Whether you're planning a corporate event, a wedding, or a music festival, we are committed to providing you with the best possible sound production services;</p>
                   <ul>
