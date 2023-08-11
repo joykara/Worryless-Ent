@@ -253,7 +253,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     margin: auto;
-    padding: 2rem 0;
+    padding: 0 0 2rem 0;
     margin-top: 1rem;
     width: 90%;
 }
@@ -322,6 +322,60 @@
 
 
 /* Mobile Queries */
+
+@media screen and (max-width: 1086px) {
+  /* Footer Container */
+  .wl-footer-container {
+    padding: 2rem 2rem 0 2rem;
+  }
+
+  /* Footer Logo */
+  .wl-logo {
+      margin-left: 0;
+  }
+  /* Footer Content */
+  .wl-footer-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 1rem;
+    padding: 0;
+    width: 100%;
+  }
+
+  /* Footer Email Section */
+  .wl-intro {
+    width: 100%;
+  }
+  /* Footer Contact Details */
+  .wl-footer-links{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex;
+      align-items: start;
+      margin-top: auto;
+      width: 100%;
+  }
+  .wl-footer-links{
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+      margin-top: 1rem;
+  }
+  .wl-footer-contact-dets p{
+      margin-bottom: 0;
+  }
+  .wl-footer-cta-links{
+      margin-top: 1rem;
+  }
+  .wl-footer-cta-links li a{
+      margin: 0 10px;
+  }
+  .wl-footer-cta-links li:last-child a{
+      margin-right: 0;
+  }
+}
+
 @media screen and (max-width: 768px) {
 
   /* Navbar logo */
@@ -363,49 +417,9 @@
     padding: 2rem 2rem 0 2rem;
   }
 
-  /* Footer Logo */
-  .wl-logo {
-      margin-left: 0;
-  }
-
-  /* Footer Content */
-  .wl-footer-content {
-      flex-direction: column;
-      justify-content: center;
-      align-items: flex-start;
-      margin-top: 1rem;
-      padding: 0;
-      width: 100%;
-  }
-
-  /* Footer Email Section */
-  .wl-intro {
-    width: 100%;
-  }
-
   /* Footer Contact Details */
   .wl-footer-links{
-      display: flex;
-      flex-direction: column;
-      justify-content: flex;
-      align-items: start;
-      margin-top: auto;
-      width: 100%;
-  }
-  .wl-footer-links{
       width: 100%;
       margin-top: 1rem;
-  }
-  .wl-footer-contact-dets p{
-      margin-bottom: 0;
-  }
-  .wl-footer-cta-links{
-      margin-top: 1rem;
-  }
-  .wl-footer-cta-links li a{
-      margin: 0 10px;
-  }
-  .wl-footer-cta-links li:last-child a{
-      margin-right: 0;
   }
 }

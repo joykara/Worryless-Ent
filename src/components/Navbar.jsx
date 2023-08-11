@@ -20,7 +20,7 @@ const Navbar = () => {
                 <nav className="wl-navbar-menu">
                     <ul>
                         <li><a href="/">Home</a></li>
-                        <li><a href="/">About</a></li>
+                        <li><a href="/#about">About</a></li>
                         <li><a href="/">Gallery</a></li>
                         <li><a href="/contact-us">Contact</a></li>
                     </ul>

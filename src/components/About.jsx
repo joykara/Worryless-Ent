@@ -4,7 +4,7 @@ import about from '../assets/mixer2.jpg';
 const About = () => {
   return (
       <>
-        <section className="wl-about-container">
+        <section className="wl-about-container" id='about'>
             <div className="wl-about">
                 <h1>ABOUT US</h1>
                 <p>Worryless Entertainment is a full-service sound company that provides sound reinforcement, photography, and videography for live events.</p>
