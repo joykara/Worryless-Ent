@@ -17,7 +17,7 @@
   align-items: center;
 }
 .wl-navbar-logo img {
-  height: 30px;
+  height: 40px;
   width: auto;
   margin-right: 10px;
 }
@@ -65,10 +65,11 @@
 .wl-navbar-menu-mobile {
   position: absolute;
   top: 2.5rem;
+  right: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #ffffffe3;
   padding: 2rem;
 }
 
@@ -125,26 +126,47 @@
 /* About Container */
 .wl-about-container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
   padding: 1rem 2rem;
+  height: 90vh;
 }
 /* About Section */
 .wl-about {
-  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   padding-left: 3rem;
-  margin: 2rem 0;
+  margin: 2rem auto;
+  width: 80%;
 }
 .wl-about h1 {
   font-size: 24px;
   font-weight: bold;
   padding-top: 4rem;
-  margin-bottom: 2rem;
-  color: #000000;
+  margin-bottom: .2rem;
+  color: var(--color-tertiary);
+}
+.wl-about hr{
+    width: 50px;
+    margin-bottom: 2rem;
+    border: 1px solid var(--color-tertiary);
 }
 .wl-about p {
   margin-bottom: .5rem;
   color: #000000;
+}
+
+.wl-about-icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    width: 80%;
 }
 /* About Image */
 .wl-about-image {
@@ -161,7 +183,7 @@
 .wl-services-container {
   display: flex;
   flex-direction: column;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   padding: 20px;
 }
 /* Services Section */
@@ -405,6 +427,7 @@
   .wl-about,
   .wl-about-image{
       padding-left: 0;
+      width: 100%;
   }
 
   /* Services Container */
@@ -421,5 +444,6 @@
   .wl-footer-links{
       width: 100%;
       margin-top: 1rem;
+      flex-direction: column;
   }
 }
