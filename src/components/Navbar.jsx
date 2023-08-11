@@ -19,10 +19,10 @@ const Navbar = () => {
                 </div>
                 <nav className="wl-navbar-menu">
                     <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/#about">About</a></li>
-                        <li><a href="/">Gallery</a></li>
-                        <li><a href="/contact-us">Contact</a></li>
+                        <li><a href="/">HOME</a></li>
+                        <li><a href="/#about">ABOUT</a></li>
+                        <li><a href="/">GALLERY</a></li>
+                        <li><a href="/cONTACT-us">CONTACT</a></li>
                     </ul>
                 </nav>
                 <div className={`wl-navbar-toggle ${toggleMenu ? 'active' : ''}`} onClick={handleToggle}>
@@ -30,10 +30,10 @@ const Navbar = () => {
                     {toggleMenu && (
                     <nav className="wl-navbar-menu-mobile">
                         <ul>
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/">About</a></li>
-                            <li><a href="/">Gallery</a></li>
-                            <li><a href="/contact-us">Contact</a></li>
+                            <li><a href="/">HOME</a></li>
+                            <li><a href="/">ABOUT</a></li>
+                            <li><a href="/">GALLERY</a></li>
+                            <li><a href="/cONTACT-us">CONTACT</a></li>
                         </ul>
                     </nav>
                     )}

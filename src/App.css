@@ -50,3 +50,9 @@ p{
 span{
   color: var(--color-secondary)
 }
+hr{
+  width: 100px;
+  margin: auto;
+  margin-bottom: 2rem;
+  border: 1px solid var(--color-tertiary);
+}
