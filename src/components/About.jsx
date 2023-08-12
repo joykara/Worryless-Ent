@@ -1,8 +1,9 @@
 import React from 'react';
 import { BiSolidCameraMovie, BiSolidMicrophoneAlt } from 'react-icons/bi';
 import { BsSpeakerFill } from 'react-icons/bs';
-import { FaCameraRetro, FaRecordVinyl } from 'react-icons/fa';
+import { FaCameraRetro, FaRecordVinyl, FaMusic } from 'react-icons/fa';
 import { GiSettingsKnobs } from 'react-icons/gi';
+import { PiSpeakerHighFill } from 'react-icons/pi';
 
 const About = () => {
   return (
@@ -18,9 +19,11 @@ const About = () => {
               <li><BiSolidCameraMovie size={35} /> </li>
               <li><GiSettingsKnobs size={35} /></li>
               <li><FaCameraRetro size={30} /></li>
+              <li><PiSpeakerHighFill size={35} /></li>
               <li><BiSolidMicrophoneAlt size={35} /></li>
-              <li><BsSpeakerFill size={35} /></li>
+              <li><BsSpeakerFill size={32} /></li>
               <li><FaRecordVinyl size={35} /></li>
+              <li><FaMusic size={30} /></li>
             </ul>
             {/* <div className="wl-about-image">
                 <img src={about} alt="WorryLess Entertainment" />

@@ -29,7 +29,10 @@
 
 /* Navbar menu */
 .wl-navbar-menu{
-  margin-left: 30%;
+  margin-top: auto;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
 }
 .wl-navbar-menu ul {
   display: flex;
@@ -141,7 +144,7 @@
   text-align: center;
   padding-left: 3rem;
   margin: 2rem auto;
-  width: 80%;
+  width: 70%;
 }
 .wl-about h1 {
   font-size: 24px;
@@ -166,7 +169,7 @@
     align-items: flex-start;
     flex-wrap: wrap;
     margin-top: 1rem;
-    width: 80%;
+    width: 60%;
 }
 /* About Image */
 .wl-about-image {
@@ -191,10 +194,15 @@
   text-align: center;
 }
 /* Services Title */
+.wl-services span{
+    color: var(--color-tertiary);
+    margin-bottom: 1rem;
+    letter-spacing: .3em;
+}
 .wl-services h1 {
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin: 1rem 0 .3rem 0;
 }
 /* Services Description */
 .wl-services p {
@@ -217,7 +225,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   grid-gap: 2rem 4rem;
-  width: 90%;
+  width: 100%;
   margin: auto;
   margin-top: 20px;
 }
@@ -423,13 +431,23 @@
   /* About Container */
   .wl-about-container {
       flex-direction: column;
+      height: 100vh;
+      margin-bottom: 3rem;
   }
   .wl-about,
   .wl-about-image{
       padding-left: 0;
       width: 100%;
   }
-
+  .wl-about-icons{
+      width: 100%;
+  }
+  .wl-about-icons li{
+      margin: .5rem 1.5rem;
+  }
+  .wl-about-icons li:last-child{
+      margin-right: 0;
+  }
   /* Services Container */
   .wl-services-container {
       padding: 1rem;
