@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './main.css';
 import { RiMenuLine, RiCloseLine } from 'react-icons/ri';
 import logo from '../logo.png';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
@@ -14,8 +15,10 @@ const Navbar = () => {
         <div className="wl-navbar-container">
             <div className="wl-navbar">
                 <div className="wl-navbar-logo">
-                      <img src={logo} alt="WorryLess Logo" />
-                      <p>Worryless Ent.</p>
+                      <Link to={'/'}>
+                        <img src={logo} alt="WorryLess Logo" />
+                    </Link>
+                    <p>Worryless Ent.</p>
                 </div>
                 <nav className="wl-navbar-menu">
                     <ul>
