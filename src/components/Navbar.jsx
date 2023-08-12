@@ -22,7 +22,7 @@ const Navbar = () => {
                         <li><a href="/">HOME</a></li>
                         <li><a href="/#about">ABOUT</a></li>
                         <li><a href="/">GALLERY</a></li>
-                        <li><a href="/cONTACT-us">CONTACT</a></li>
+                        <li><a href="/contact-us">CONTACT</a></li>
                     </ul>
                 </nav>
                 <div className={`wl-navbar-toggle ${toggleMenu ? 'active' : ''}`} onClick={handleToggle}>
@@ -33,7 +33,7 @@ const Navbar = () => {
                             <li><a href="/">HOME</a></li>
                             <li><a href="/">ABOUT</a></li>
                             <li><a href="/">GALLERY</a></li>
-                            <li><a href="/cONTACT-us">CONTACT</a></li>
+                            <li><a href="/contact-us">CONTACT</a></li>
                         </ul>
                     </nav>
                     )}
