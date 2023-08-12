@@ -21,7 +21,14 @@
     margin: 3rem auto;
 }
 .contact-form > h1 {
-    margin-bottom: 30px;
+    margin-bottom: .5rem;
+    text-align: center;
+    color: var(--color-tertiary);
+}
+.contact-form > p {
+    margin-bottom: 1rem;
+    text-align: center;
+    color: var(--color-quaternary);
 }
 .contact-form-input{
     display: flex;

@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './contact.css';
-import { Footer, Navbar } from '../components';
-import { db } from '../firebase/config';
+import { Footer, Navbar } from '../../components';
+import { db } from '../../firebase/config';
 
 const ContactUs = () => {
     const [name, setName] = useState('');
@@ -53,6 +53,9 @@ const ContactUs = () => {
         <Navbar />
         <form className="contact-form" onSubmit={handleSubmit}>
               <h1>Contact Us</h1>
+              <hr />
+              <p>Have a question or want to book an event? We'd love to hear from you!</p>
+              <p>Please fill out the form below, and we'll be in touch.</p>
 
               <div className="contact-form-input">
                 <label>Name <span>(required)</span></label>
