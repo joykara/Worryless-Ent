@@ -192,6 +192,8 @@
 /* Services Section */
 .wl-services {
   text-align: center;
+  margin: auto;
+  width: 70%;
 }
 /* Services Title */
 .wl-services span{
@@ -211,12 +213,15 @@
 
 /* Services List */
 .wl-services ul {
-  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: left;
   padding: 0;
   margin-bottom: 15px;
 }
 
 .wl-services li {
+  list-style: disc;
   margin-bottom: 5px;
 }
 

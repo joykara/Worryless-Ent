@@ -10,7 +10,7 @@ const Footer = () => {
             <section className="wl-footer-container">
                 <div className="wl-footer">
                     <div className="wl-logo">
-                        <img src={logo2} alt="WorryLess Logo" />
+                        <img src={logo2} alt="WorryLess Entertainment" />
                     </div>
                     <div className="wl-footer-content">
                         <div className="wl-intro">

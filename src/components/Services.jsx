@@ -17,6 +17,7 @@ const Services = () => {
                       <li>Sound Reinforcement</li>
                       <li>Photography</li>
                       <li>Videography</li>
+                      <li>Live Events</li>
                   </ul>
               </div>
               <div className="wl-services-images">

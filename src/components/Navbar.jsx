@@ -16,7 +16,7 @@ const Navbar = () => {
             <div className="wl-navbar">
                 <div className="wl-navbar-logo">
                       <Link to={'/'}>
-                        <img src={logo} alt="WorryLess Logo" />
+                        <img src={logo} alt="WorryLess Entertainment" />
                     </Link>
                     <p>Worryless Ent.</p>
                 </div>
