@@ -8,7 +8,7 @@ import logo from "../logo.png";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const [toggleMenu, setToggleMenu] = useState(true);
+  const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
     <>
