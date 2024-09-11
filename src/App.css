@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 *{
   margin: 0;
   padding: 0;
@@ -48,7 +51,7 @@ p{
   font-weight: 400;
 }
 span{
-  color: var(--color-secondary)
+  font-family: var(--links-font-family)
 }
 hr{
   width: 50px;

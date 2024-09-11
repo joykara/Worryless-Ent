@@ -50,19 +50,6 @@
 .wl-navbar-menu ul li:last-child {
   margin-right: 0;
 }
-/* Navbar toggle */
-.wl-navbar-toggle {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  cursor: pointer;
-  visibility: hidden;
-  color: #ffffff;
-}
-
-.wl-navbar-toggle svg {
-  margin-left: 3rem;
-}
 
 /* Navbar menu mobile */
 .wl-navbar-menu-mobile {
@@ -189,41 +176,6 @@
   background-color: #ffffff;
   padding: 20px;
 }
-/* Services Section */
-.wl-services {
-  text-align: center;
-  margin: auto;
-  width: 70%;
-}
-/* Services Title */
-.wl-services span{
-    color: var(--color-tertiary);
-    margin-bottom: 1rem;
-    letter-spacing: .3em;
-}
-.wl-services h1 {
-  font-size: 24px;
-  font-weight: bold;
-  margin: 1rem 0 .3rem 0;
-}
-/* Services Description */
-.wl-services p {
-  margin-bottom: 15px;
-}
-
-/* Services List */
-.wl-services ul {
-  display: flex;
-  justify-content: space-evenly;
-  text-align: left;
-  padding: 0;
-  margin-bottom: 15px;
-}
-
-.wl-services li {
-  list-style: disc;
-  margin-bottom: 5px;
-}
 
 /* Services Images */
 .wl-services-images {
@@ -330,19 +282,6 @@
   color: #ffffff;
 }
 
-.wl-footer-cta-links {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.wl-footer-cta-links li a{
-  margin: 0 5px;
-  color: #ffffff;
-}
-
 /* Footer Copyright */
 .wl-footer__copyright{
   display: flex;
@@ -400,15 +339,6 @@
   .wl-footer-contact-dets p{
       margin-bottom: 0;
   }
-  .wl-footer-cta-links{
-      margin-top: 1rem;
-  }
-  .wl-footer-cta-links li a{
-      margin: 0 10px;
-  }
-  .wl-footer-cta-links li:last-child a{
-      margin-right: 0;
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -421,11 +351,6 @@
   /* Navbar menu */
   .wl-navbar-menu {
     display: none;
-  }
-
-  /* Navbar toggle */
-  .wl-navbar-toggle {
-    visibility: visible;
   }
 
   /* Header */

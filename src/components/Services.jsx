@@ -7,17 +7,17 @@ const Services = () => {
   return (
       <>
           <section className="wl-services-container">
-              <div className="wl-services">
+              <div className="flex flex-col text-center m-auto w-[90%] md:w-[70%] gap-2">
                   <span>REAL PROJECTS. REAL RESULTS</span>
                   <h1>WHAT WE OFFER</h1>
                     <hr />
                   <p>Invite us to your live event and see the difference</p>
                   <p>Whether you're planning a corporate event, a wedding, or a music festival, we are committed to providing you with the best possible sound production services;</p>
-                  <ul>
-                      <li>Sound Reinforcement</li>
-                      <li>Photography</li>
-                      <li>Videography</li>
-                      <li>Live Events</li>
+                  <ul className='flex justify-evenly gap-4 flex-wrap my-4'>
+                      <li className='list-disc'>Sound Reinforcement</li>
+                      <li className='list-disc'>Photography</li>
+                      <li className='list-disc'>Videography</li>
+                      <li className='list-disc'>Live Events</li>
                   </ul>
               </div>
               <div className="wl-services-images">
